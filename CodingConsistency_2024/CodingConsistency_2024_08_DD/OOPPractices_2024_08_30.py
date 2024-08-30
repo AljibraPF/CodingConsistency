@@ -10,3 +10,5 @@ class OOP():
 
 obj = OOP("Alan","Timmy")
 obj.stringfunction()
+
+#Make sure to make a variable and reference it to a method next time
