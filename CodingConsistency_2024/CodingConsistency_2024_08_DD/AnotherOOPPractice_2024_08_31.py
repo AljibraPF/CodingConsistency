@@ -22,6 +22,7 @@ class Book():
 
 obj = Book("The Eepy!","Joe",2024)
 obj.return_book()
+obj.check_out()
 obj.display_info()
 
 # This OOP Practice is for checking on how to use other data types in OOP
