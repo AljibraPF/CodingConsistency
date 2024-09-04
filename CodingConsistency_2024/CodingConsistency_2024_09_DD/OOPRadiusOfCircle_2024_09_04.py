@@ -1,5 +1,5 @@
 class CircleRadius:
-    def __init__(self,circum,pi=3.14): #Remember you can put pi as a default parameter
+    def __init__(self,circum,pi=3.14): #Remember you can put pi as a default parameter!
         self.circum = circum
         self.pi = pi
     
