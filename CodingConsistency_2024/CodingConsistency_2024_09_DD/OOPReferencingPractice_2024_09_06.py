@@ -10,3 +10,5 @@ class ReferencingTest:
 
 obj = ReferencingTest("FirstWord","SecondWord","ThirdWord")
 obj.methodCalling()
+
+# This is another practice to use the methods to reference the initialazations
