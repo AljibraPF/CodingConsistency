@@ -1,6 +1,15 @@
-words = "This is a text"
-vowels = ["a","i","u","e","o"]
+class FinderVowel:
+    def __init__(self,words):
+        self.words = words
+        self.vowel = ["a","i","u","e","o"]
+    
+    def FindVowel(self):
+        vowelfounded = []
+        for i in self.words:
+            if i in self.vowel:
+                vowelfounded.append(i)
+        return vowelfounded
 
-for i in words:
-    if i in vowels:
-        print(i)
+vf = FinderVowel("This is a Text")
+
+print(vf.FindVowel())
