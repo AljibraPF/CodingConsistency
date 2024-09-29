@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdio.h>
 //Least comparisons not much different!
 int main(){
     int num1 = 10;
