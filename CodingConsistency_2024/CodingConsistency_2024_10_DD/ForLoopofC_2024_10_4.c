@@ -16,5 +16,12 @@ int main() {
         printf("%d\n", i);
     }
 
+//Multiplication Table
+
+    printf("\nMultiplication table of 2:\n");
+    for (i = 1; i <= 5; i++) {
+        printf("2 * %d = %d\n", i, 2 * i);
+    }
+
     return 0;
 }
