@@ -10,5 +10,11 @@ int main() {
         printf("%d\n", i);
     }
 
+//Decrease
+    printf("\nDecrease loop:\n");
+    for (i = 4; i >= 0; i--) {
+        printf("%d\n", i);
+    }
+
     return 0;
 }
