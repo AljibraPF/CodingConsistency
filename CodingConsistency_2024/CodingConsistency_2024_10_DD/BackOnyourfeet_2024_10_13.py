@@ -6,5 +6,8 @@ class SimplePrint():
         self.y = y
 
     def printingVariables(self):
-        print(f"This is x = {self.x}\n and this is y = {self.y}")
+        print(f"This is x = {self.x}\nThis is y = {self.y}")
+
+obj = SimplePrint("Text1","Text2")
+obj.printingVariables()
 
