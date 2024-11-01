@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/CodingConsistency/CodingConsistency_2024/CodingConsistency_2024_10_DD",
-      "program": "d:/CodingConsistency/CodingConsistency_2024/CodingConsistency_2024_10_DD/build/Debug/outDebug",
+      "cwd": "d:/CodingConsistency/CodingConsistency_2024/CodingConsistency_2024_11_DD",
+      "program": "d:/CodingConsistency/CodingConsistency_2024/CodingConsistency_2024_11_DD/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
