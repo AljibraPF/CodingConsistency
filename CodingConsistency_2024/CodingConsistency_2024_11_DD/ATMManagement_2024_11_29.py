@@ -24,3 +24,37 @@ class BankAccount:
     def check_balance(self):
         print(f"Account balance: ${self.balance:.2f}")
 
+
+#29/11/2024
+#Initiliazation
+
+def main():
+    print("Welcome to the ATM System")
+    account = BankAccount(account_number="123456789", owner_name="John Doe", balance=500.0)
+
+    while True:
+        print("\nOptions:")
+        print("1. Check Balance")
+        print("2. Deposit Money")
+        print("3. Withdraw Money")
+        print("4. Exit")
+
+        choice = input("Select an option (1-4): ")
+
+        if choice == "1":
+            account.check_balance()
+        elif choice == "2":
+            amount = float(input("Enter the amount to deposit: "))
+            account.deposit(amount)
+        elif choice == "3":
+            amount = float(input("Enter the amount to withdraw: "))
+            account.withdraw(amount)
+        elif choice == "4":
+            print("Thank you for using the ATM. Goodbye!")
+            break
+        else:
+            print("Invalid option. Please try again.")
+
+
+if __name__ == "__main__":
+    main()
