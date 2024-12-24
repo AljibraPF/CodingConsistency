@@ -3,7 +3,7 @@ A repository where I try to code daily, focusing on simple tasks and small codin
 
 Currently Halted for a couple of months due to college entrance exams coming up
 
-12/25/2024 Untill 04/30/2024
+12/25/2024 Untill 04/30/2025
 
 
 
